@@ -181,11 +181,13 @@ flowchart TD
 
 ### 查看三个案例的完整结果
 
+HTML 是在线预览版，点开就是报告页面；Markdown 和 JSON 是源文件，适合查看结构和留档。
+
 | 公司 | 默认展示案例 | 报告 |
 |------|--------------|------|
-| **NVIDIA（英伟达）** | 投资主线：公司质量、情景估值、反向估值与安全边际 | [HTML](review-output/NVIDIA-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.html) · [Markdown](review-output/NVIDIA-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.md) · [JSON](review-output/NVIDIA-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.json) |
-| **字节跳动** | 求职主线：公司级初筛、风险边界与10个低防御面试反问 | [HTML](review-output/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.html) · [Markdown](review-output/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.md) · [JSON](review-output/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.json) |
-| **腾讯控股** | 投资与求职双线示例：两类结论分别呈现 | [HTML](review-output/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.html) · [Markdown](review-output/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.md) · [JSON](review-output/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.json) |
+| **NVIDIA（英伟达）** | 投资主线：公司质量、情景估值、反向估值与安全边际 | [HTML 在线预览](https://zhangxiaoqiang1991.github.io/luopan/review-output/NVIDIA-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.html) · [Markdown](review-output/NVIDIA-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.md) · [JSON](review-output/NVIDIA-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.json) |
+| **字节跳动** | 求职主线：公司级初筛、风险边界与10个低防御面试反问 | [HTML 在线预览](https://zhangxiaoqiang1991.github.io/luopan/review-output/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.html) · [Markdown](review-output/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.md) · [JSON](review-output/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.json) |
+| **腾讯控股** | 投资与求职双线示例：两类结论分别呈现 | [HTML 在线预览](https://zhangxiaoqiang1991.github.io/luopan/review-output/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.html) · [Markdown](review-output/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.md) · [JSON](review-output/%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1-%E5%85%AC%E5%8F%B8%E8%B0%83%E7%A0%94-2026-07-12.json) |
 
 公司研究同时支持上市公司与非上市公司，但证据边界不同：上市公司优先使用监管披露、财报和公告；非上市公司若缺少可靠数据，会明确标注“公开信息有限”，不会用媒体传闻拼出虚假的精确财务结论。
 
