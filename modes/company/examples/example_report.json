@@ -1,0 +1,19 @@
+{
+  "company":{"name":"示例科技","status":"非上市"},"research_date":"2026-07-12",
+  "summary":{"headline":"增长较快，但公开财务有限；投资可研究性低，求职需核实业务线。","investment":"信息不足","career":"有条件关注"},
+  "data_health":[
+    {"dimension":"财务","status":"missing","obtained":1,"required":4,"notes":"缺少现金流和留存"},
+    {"dimension":"组织","status":"stale","obtained":2,"required":2,"notes":"员工数据已超过一年"},
+    {"dimension":"存货","status":"not_applicable","obtained":0,"required":0,"notes":"订阅软件不适用"}
+  ],
+  "facts":[
+    {"id":"f1","field":"收入模式","value":"年度订阅","period":"当前","source_ids":["s1"],"confidence":"medium","is_inference":false,"is_calculated":false},
+    {"id":"f2","field":"可验证数据完整率","value":25,"unit":"%","period":"当前研究","source_ids":["s1","s2"],"confidence":"medium","is_inference":false,"is_calculated":true,"calculation":"1 / 4 * 100"}
+  ],
+  "sections":[{"title":"商业模式","body":"向企业客户提供订阅制软件。","evidence_ids":["s1"]},{"title":"风险","body":"客户留存与现金消耗缺少可靠披露。","evidence_ids":["s2"]}],
+  "quiz_cards":[
+    {"id":"q1","type":"single_choice","question":"为什么当前不能形成明确投资判断？","options":[{"id":"A","text":"公司没有上市"},{"id":"B","text":"现金流和留存数据无法验证"},{"id":"C","text":"订阅制一定不可投资"}],"correct_option_ids":["B"],"explanation":"关键经营证据缺失才限制判断。","option_explanations":{"A":"非上市不等于不可投资。","B":"正确。","C":"收入模式不是否决条件。"},"related_sections":["风险"],"evidence_ids":["s2"],"follow_up_prompt":"请解释还需哪些数据才能判断投资价值。"},
+    {"id":"q2","type":"multiple_choice","question":"求职前还应核实哪些信息？","options":[{"id":"A","text":"业务线战略地位"},{"id":"B","text":"直属上级与成果权"},{"id":"C","text":"Logo 颜色"}],"correct_option_ids":["A","B"],"explanation":"业务位置和直属上级决定岗位价值。","option_explanations":{"A":"正确。","B":"正确。","C":"无直接关系。"},"related_sections":["商业模式"],"evidence_ids":["s1"],"follow_up_prompt":"请列出面试核实问题。"}
+  ],
+  "sources":[{"id":"s1","title":"公司官网","url":"https://example.com/product","level":"A级"},{"id":"s2","title":"融资公告","url":"https://example.com/funding","level":"B级"}]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "罗盘 · 行业研究"
+  short_description: "拆解行业结构、价值链、竞争格局和进入机会，输出有证据的判断"
+  default_prompt: "使用 $luopan-industry-research 调研一个行业，说明利润、权力和机会在哪里。"

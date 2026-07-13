@@ -1,0 +1,4 @@
+interface:
+  display_name: "罗盘 · 商业研究"
+  short_description: "研究行业与具体公司，输出有证据支持的投资、求职与商业判断"
+  default_prompt: "使用 $luopan 调研一个行业或公司，并给出有证据支持的决策判断。"

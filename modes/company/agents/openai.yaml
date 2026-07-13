@@ -1,0 +1,4 @@
+interface:
+  display_name: "罗盘 · 公司研究"
+  short_description: "调研具体公司的发展与生态位，分别完成投资价值和求职价值初筛"
+  default_prompt: "使用 $luopan-company-research 调研一家公司，并按我的用途生成投资或求职判断。"
